@@ -1,0 +1,11 @@
+{% include "header.html" %}
+
+
+<h1>You are now logged in</h1>
+
+<form action="" method="POST" >
+    {% csrf_token %} 
+    <div class="col-md-4">
+        <button type="submit" class="btn btn-primary mt-3">Logout</button> 
+    </div>
+</form>  
